@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #e6dcc6;
+}
+
+.main{
+   
+
+}
+
+.main .home-section{
+    height: 100vh;
+    background-color: #2a292b;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 120px 1fr;
+    
+}
+ .main .home-section .home-main{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: 1fr;
+
+}
+.main .home-section .home-main .home-text{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+.main .home-section .home-main .home-text h1{
+
+    font-size: 86px;
+    font-weight: 300;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.main .home-section .home-main .home-text button{
+
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    background-color: #e6dcc6;
+    color: black;
+}
+
+.main .home-section .home-main .home-photo{
+
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+.main .home-section .home-main .home-text p {
+
+    font-weight: 100;
+    margin-left: 350px;
+    margin-top: 30px;}
+    
+.main .home-section .hrline {
+    margin: 50px;
+
+}
+
+
